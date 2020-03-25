@@ -1,0 +1,28 @@
+$color_gray: #fd6d22;
+$color_blue: #00c1ff;
+
+
+$primary:       #001;
+$secondary:     #002;
+$success:       #003;
+$info:          #004;
+$warning:       #005;
+$danger:        #006;
+$light:         #007;
+$dark:          #008;
+
+$theme-colors: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+  ),
+  $theme-colors
+);
