@@ -35,7 +35,7 @@
             <div class="teacher-elem">
               <div class="teacher-img">
                 <img src="img/teacher-img.jpg" alt="">
-                <audio src="audio.mp3" class="t-audio"></audio>
+                <audio src="audio.mp3" controls class="t-audio"></audio>
                 <!-- <div class="teacher-video">
                   <iframe width="560" height="315" class="videoframe" src="https://www.youtube.com/embed/IUN664s7N-c" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div> -->
@@ -72,7 +72,7 @@
             <div class="teacher-elem">
               <div class="teacher-img">
                 <img src="img/teacher-img.jpg" alt="">
-                <audio src="audio.mp3" class="t-audio"></audio>
+                <audio src="audio.mp3" controls class="t-audio"></audio>
                 <!-- <div class="teacher-video">
                   <iframe width="560" height="315" class="videoframe" src="https://www.youtube.com/embed/IUN664s7N-c" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div> -->
@@ -109,7 +109,7 @@
             <div class="teacher-elem">
               <div class="teacher-img">
                 <img src="img/teacher-img.jpg" alt="">
-                <audio src="audio.mp3" class="t-audio"></audio>
+                <audio src="audio.mp3" controls class="t-audio"></audio>
                 <!-- <div class="teacher-video">
                   <iframe width="560" height="315" class="videoframe" src="https://www.youtube.com/embed/IUN664s7N-c" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div> -->
@@ -146,7 +146,7 @@
             <div class="teacher-elem">
               <div class="teacher-img">
                 <img src="img/teacher-img.jpg" alt="">
-                <audio src="audio.mp3" class="t-audio"></audio>
+                <audio src="audio.mp3" controls class="t-audio"></audio>
                 <!-- <div class="teacher-video">
                   <iframe width="560" height="315" class="videoframe" src="https://www.youtube.com/embed/IUN664s7N-c" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div> -->
@@ -218,7 +218,7 @@
             <div class="teacher-elem">
               <div class="teacher-img">
                 <img src="img/teacher-img.jpg" alt="">
-                <audio src="audio.mp3" class="t-audio"></audio>
+                <audio src="audio.mp3" controls class="t-audio"></audio>
                 <!-- <div class="teacher-video">
                   <iframe width="560" height="315" class="videoframe" src="https://www.youtube.com/embed/IUN664s7N-c" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div> -->

@@ -386,7 +386,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-.fritz, .teamModal .modal-dialog .right-side .form-inner .title, .graphModal .modal-dialog .modal-content .title, .freeLesson .modal-dialog .left-side .title, .phones .call ul li a, .cabinet-wrapper.teacher-acc .teacher-wrap .teacher-head span, .cabinet-wrapper.teacher-acc .teacher-wrap .teacher-head a, .modal.discount .modal-body .lesson-table table thead tr:nth-child(2) th, .modal.discount .modal-body .lesson-table table thead tr th:nth-child(2), .cabinet-wrapper .manager-name, .cabinet-wrapper .teacher-name, .cabinet-wrapper .student-header p, .section.section-choose .connect p, .teacher-elem .teach-info .name, .section-join .join-wrapper p, .vacancy-elem p, .review .author-name, .section.section-cost.section-price .price-advantage p, .degree-wrapper .title, .section.section-works p, .section.section-article .more-articles .article-subtitle, .section.section-article .lastest-articles .title, .contact-envelope .title, .collapse-title.collapsed p, .collapse-title p, .review-description .author-name, .section.section-test .ask, .section.section-test #result-block #result-title, .section.section-test .test-timer, .section.section-certificate .title, .common-info ul li, .section.section-teacher .carousel .slider-item .name, .free-envelope__title, .free-elem__title, .help-elem__description p, .section-title, .how-item__title, .section.section-main .main-form .form-subtitle, .section.section-main .main-form .form-title, .section.section-main .main-description, .section.section-main .main-title, header .mob-nav ul li a, header .bottom-nav ul li a {
+.fritz, .teamModal .modal-dialog .right-side .form-inner .title, .graphModal .modal-dialog .modal-content .title, .freeLesson .modal-dialog .left-side .title, .phones .call ul li a, .cabinet-wrapper.teacher-acc .teacher-wrap .teacher-head span, .cabinet-wrapper.teacher-acc .teacher-wrap .teacher-head a, .modal.discount .modal-body .lesson-table table thead tr:nth-child(2) th, .modal.discount .modal-body .lesson-table table thead tr th:nth-child(2), .cabinet-wrapper .manager-name, .cabinet-wrapper .teacher-name, .cabinet-wrapper .student-header p, .section.section-choose .connect p, .teacher-elem .teach-info .name, .section-join .join-wrapper p, .vacancy-elem p, .review .author-name, .section.section-cost.section-price .price-advantage p, .degree-wrapper .title, .section.section-works p, .more-articles .article-subtitle, .section.section-article .lastest-articles .title, .contact-envelope .title, .collapse-title.collapsed p, .collapse-title p, .review-description .author-name, .section.section-test .ask, .section.section-test #result-block #result-title, .section.section-test .test-timer, .section.section-certificate .title, .common-info ul li, .section.section-teacher .carousel .slider-item .name, .free-envelope__title, .free-elem__title, .help-elem__description p, .section-title, .how-item__title, /*.section.section-main */.main-form .form-subtitle, /*.section.section-main */.main-form .form-title, .section.section-main .main-description, .section.section-main .main-title, header .mob-nav ul li a, header .bottom-nav ul li a {
   font-family: "fritzquadratacyrillic", sans-serif;
 }
 
@@ -398,7 +398,7 @@ input::-webkit-inner-spin-button {
   font-family: "HelveticaMedium";
 }
 
-.bold, .graphModal .modal-dialog .modal-content .graph-part .form-title, footer .footer-right .bottom-part .call .skype, .cabinet-wrapper.teacher-acc .control-wrap .lesson-left .left-head p b, .cabinet-wrapper.teacher-acc .graph-wrap .next-lesson.empty .lesson-ready a, .cabinet-wrapper.teacher-acc .teacher-wrap .teacher-contacts li a, header.teacher .teacher-nav ul li.active a, .modal.graphic .graphic-table table tbody tr td, .modal.accrual .total b, .modal.accrual ul li p b, .modal .modal-dialog .modal-content .modal-header .title span, .modal .close, .cabinet-wrapper.free-lesson .step .title, .cabinet-wrapper.balance .balance-inner span, .cabinet-wrapper.schedule .shedule-info .shedule-left p b, .cabinet-wrapper table tr td:nth-last-child(1), .teacher-elem .teach-info ul li b, .section.section-article .more-articles .article .article-image .image-footer span.views, .section.section-article .article-content .article-headings .views, .contact-envelope table tr td:nth-last-child(1), .breadcrumbs ul li span, .section.section-test .add-info p b, .section.section-test .ask-count p, .section.section-test #result-block p b, .section.section-teacher .carousel .slider-item ul li b, .free-envelope p b, .tab-wrapper .lesson-choose__elem--cost, .tab-wrapper .lesson-choose__elem--title, .tab-wrapper .nav-tabs li a.active, .call .call-wrapper__select ul li a, .call .call-wrapper__select .main-phone span {
+.bold, .graphModal .modal-dialog .modal-content .graph-part .form-title, footer .footer-right .bottom-part .call .skype, .cabinet-wrapper.teacher-acc .control-wrap .lesson-left .left-head p b, .cabinet-wrapper.teacher-acc .graph-wrap .next-lesson.empty .lesson-ready a, .cabinet-wrapper.teacher-acc .teacher-wrap .teacher-contacts li a, header.teacher .teacher-nav ul li.active a, .modal.graphic .graphic-table table tbody tr td, .modal.accrual .total b, .modal.accrual ul li p b, .modal .modal-dialog .modal-content .modal-header .title span, .modal .close, .cabinet-wrapper.free-lesson .step .title, .cabinet-wrapper.balance .balance-inner span, .cabinet-wrapper.schedule .shedule-info .shedule-left p b, .cabinet-wrapper table tr td:nth-last-child(1), .teacher-elem .teach-info ul li b, .more-articles .article .article-image .image-footer span.views, .section.section-article .article-content .article-headings .views, .contact-envelope table tr td:nth-last-child(1), .breadcrumbs ul li span, .section.section-test .add-info p b, .section.section-test .ask-count p, .section.section-test #result-block p b, .section.section-teacher .carousel .slider-item ul li b, .free-envelope p b, .tab-wrapper .lesson-choose__elem--cost, .tab-wrapper .lesson-choose__elem--title, .tab-wrapper .nav-tabs li a.active, .call .call-wrapper__select ul li a, .call .call-wrapper__select .main-phone span {
   font-family: "HelveticaBold";
 }
 
@@ -581,7 +581,8 @@ header .bottom-nav ul {
   justify-content: space-between;
   border-top: 1px solid #fff;
 }
-header .bottom-nav ul li a {
+header .bottom-nav ul li a,
+header .bottom-nav ul li a:not([href]):not([tabindex]) {
   font-size: 22px;
   color: #cc0000;
   padding: 20px 0;
@@ -1055,7 +1056,7 @@ header .mob-nav .l-register p {
     line-height: 18px;
   }
 }
-.section.section-main .main-form {
+/*.section.section-main */.main-form {
   border-radius: 7px;
   background-clip: padding-box;
   background-color: #fff;
@@ -1063,77 +1064,77 @@ header .mob-nav .l-register p {
   padding: 25px 50px;
 }
 @media (max-width: 767px) {
-  .section.section-main .main-form {
+  /*.section.section-main */.main-form {
     padding: 25px 20px;
   }
 }
-.section.section-main .main-form .form-title {
+/*.section.section-main */.main-form .form-title {
   font-size: 24px;
   color: #000;
   line-height: 24px;
   margin: 0 0 10px;
 }
 @media (max-width: 767px) {
-  .section.section-main .main-form .form-title {
+  /*.section.section-main */.main-form .form-title {
     font-size: 20px;
     text-align: center;
     margin: 0 0 10px;
     line-height: 21px;
   }
 }
-.section.section-main .main-form .form-subtitle {
+/*.section.section-main */.main-form .form-subtitle {
   font-size: 18px;
   color: #000000;
   margin: 0 0 10px;
 }
 @media (max-width: 767px) {
-  .section.section-main .main-form .form-subtitle {
+  /*.section.section-main */.main-form .form-subtitle {
     font-size: 16px;
   }
 }
-.section.section-main .main-form .form-group {
+/*.section.section-main */.main-form .form-group {
   margin: 0 0 5px;
   width: 100%;
 }
-.section.section-main .main-form .form-group .form-input {
+/*.section.section-main */.main-form .form-group .form-input {
   border-bottom: 1px solid #b4b4b3;
   font-size: 16px;
   color: #000000;
   width: 100%;
   height: 47px;
 }
-.section.section-main .main-form .btn {
+/*.section.section-main */.main-form .btn {
   min-width: 100%;
   margin: 25px 0;
 }
 @media (max-width: 767px) {
-  .section.section-main .main-form .btn {
+  /*.section.section-main */.main-form .btn {
     font-size: 18px;
     min-height: 40px;
     padding: 0;
   }
 }
-.section.section-main .main-form .remark {
+/*.section.section-main */.main-form .remark {
   font-size: 14px;
   display: block;
   margin: 0 0 20px;
 }
 @media (max-width: 767px) {
-  .section.section-main .main-form .remark {
+  /*.section.section-main */.main-form .remark {
     margin: 0 0 5px;
     font-size: 12px;
   }
 }
-.section.section-main .main-form .policy {
+/*.section.section-main */.main-form .policy {
   font-size: 14px;
   display: block;
   text-align: right;
 }
-.section.section-main .main-form .policy a {
+/*.section.section-main */.main-form .policy a {
   color: #0264b0;
 }
 @media (max-width: 767px) {
-  .section.section-main .main-form .policy {
+  /*.section.section-main */.main-form .policy {
     text-align: left;
     font-size: 12px;
   }
@@ -3050,9 +3051,10 @@ ul.cert-list.w-orange li:after {
   }
 }
 
-.section.section-article {
+.section.section-article,
+.section.section-articles {
   background: url("../img/about-bg.jpg") center top no-repeat;
-  padding: 0 0 115px;
+  padding: 0 0 65px;
 }
 .section.section-article .article-content {
   border-right: 1px solid #000;
@@ -3210,28 +3212,28 @@ ul.cert-list.w-orange li:after {
 .section.section-article .lastest-articles .article-title:hover {
   text-decoration: underline;
 }
-.section.section-article .more-articles {
+.more-articles {
   padding: 75px 0 0;
 }
 @media (max-width: 991px) {
-  .section.section-article .more-articles {
+  .more-articles {
     padding: 25px 0 0;
   }
 }
-.section.section-article .more-articles [class*=col-] {
-  margin: 0 0 45px;
+.more-articles [class*=col-] {
+  margin: 0 0 35px;
 }
-.section.section-article .more-articles .article-subtitle {
+.more-articles .article-subtitle {
   font-size: 28px;
   color: #000;
   margin: 0 0 35px;
 }
 @media (max-width: 767px) {
-  .section.section-article .more-articles .article-subtitle {
+  .more-articles .article-subtitle {
     margin: 0 0 15px;
   }
 }
-.section.section-article .more-articles .article {
+.more-articles .article {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -3239,7 +3241,7 @@ ul.cert-list.w-orange li:after {
   display: flex;
   flex-wrap: wrap;
 }
-.section.section-article .more-articles .article .article-image {
+.more-articles .article .article-image {
   width: 240px;
   position: relative;
   overflow: hidden;
@@ -3247,11 +3249,11 @@ ul.cert-list.w-orange li:after {
   margin: 0 20px 0 0;
 }
 @media (max-width: 767px) {
-  .section.section-article .more-articles .article .article-image {
+  .more-articles .article .article-image {
     width: 160px;
   }
 }
-.section.section-article .more-articles .article .article-image img {
+.more-articles .article .article-image img {
   width: 240px;
   height: 100%;
   display: block;
@@ -3259,11 +3261,11 @@ ul.cert-list.w-orange li:after {
   object-position: center;
 }
 @media (max-width: 767px) {
-  .section.section-article .more-articles .article .article-image img {
+  .more-articles .article .article-image img {
     width: 160px;
   }
 }
-.section.section-article .more-articles .article .article-image .image-footer {
+.more-articles .article .article-image .image-footer {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -3279,15 +3281,15 @@ ul.cert-list.w-orange li:after {
   justify-content: space-between;
 }
 @media (max-width: 767px) {
-  .section.section-article .more-articles .article .article-image .image-footer {
+  .more-articles .article .article-image .image-footer {
     padding: 5px 10px;
   }
 }
-.section.section-article .more-articles .article .article-image .image-footer img {
+.more-articles .article .article-image .image-footer img {
   filter: brightness(0) invert(1);
   display: block;
 }
-.section.section-article .more-articles .article .article-image .image-footer span {
+.more-articles .article .article-image .image-footer span {
   display: -webkit-inline-flex;
   display: -moz-inline-flex;
   display: -ms-inline-flex;
@@ -3300,33 +3302,33 @@ ul.cert-list.w-orange li:after {
   color: #fff;
 }
 @media (max-width: 767px) {
-  .section.section-article .more-articles .article .article-image .image-footer span {
+  .more-articles .article .article-image .image-footer span {
     font-size: 14px;
   }
 }
-.section.section-article .more-articles .article .article-image .image-footer span img {
+.more-articles .article .article-image .image-footer span img {
   margin: 0 10px 0 0;
   width: auto;
   height: auto;
 }
 @media (max-width: 767px) {
-  .section.section-article .more-articles .article .article-image .image-footer span img {
+  .more-articles .article .article-image .image-footer span img {
     margin: 0 5px 0 0;
     width: 19px;
   }
 }
-.section.section-article .more-articles .article .article-image .image-footer span.views {
+.more-articles .article .article-image .image-footer span.views {
   color: #fff;
 }
-.section.section-article .more-articles .article .article-info {
+.more-articles .article .article-info {
   width: calc(100% - 260px);
 }
 @media (max-width: 767px) {
-  .section.section-article .more-articles .article .article-info {
+  .more-articles .article .article-info {
     width: calc(100% - 180px);
   }
 }
-.section.section-article .more-articles .article .article-info .title {
+.more-articles .article .article-info .title {
   font-size: 22px;
   color: #000;
   margin: 0 0 45px;
@@ -3337,15 +3339,15 @@ ul.cert-list.w-orange li:after {
   display: flex;
 }
 @media (max-width: 767px) {
-  .section.section-article .more-articles .article .article-info .title {
+  .more-articles .article .article-info .title {
     font-size: 16px;
     margin: 0 0 10px;
   }
 }
-.section.section-article .more-articles .article .article-info .title:hover {
+.more-articles .article .article-info .title:hover {
   text-decoration: underline;
 }
-.section.section-article .more-articles .article .article-info .reading {
+.more-articles .article .article-info .reading {
   font-style: italic;
 }
 
@@ -3892,7 +3894,8 @@ ul.cert-list.w-orange li:after {
     width: 100%;
   }
 }
-.review .review-description .review-content {
+.review .review-description .review-content,
+.review-description .review-content {
   font-size: 16px;
   line-height: 19px;
   overflow: hidden;
@@ -7450,3 +7453,206 @@ footer .btn {
   }
 }
 /** IE **/
+
+.t-audio{
+  outline: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  width: 100%;
+  background: #f1f3f4;
+  display: none;
+}
+
+.teacher-img.active > .t-play{
+  display: none;
+}
+
+.teacher-img.active .t-audio{
+  display: block;
+}
+
+.more-articles-blog{
+  padding: 0;
+}
+
+.more-articles-blog.more-articles .article .article-image img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.more-articles-blog.more-articles .article .article-image .title,
+.more-articles-blog.more-articles .article .article-image .descr,
+.more-articles-blog.more-articles .article .article-image .image-footer{
+  position: relative; 
+  z-index: 3;
+}
+
+.more-articles-blog.more-articles .article .article-image:before{
+  content: "";
+  position: absolute;
+  z-index: 2;
+  background: #000;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.more-articles-blog.more-articles .article .article-image img,
+.more-articles-blog.more-articles .article .article-image{
+  width: 100%;
+  margin: 0;
+}
+
+.more-articles-blog.more-articles .article{
+  height: 100%;
+}
+
+.more-articles-blog.more-articles .article .article-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.more-articles-blog.more-articles .article .article-image{
+  padding: 20px 25px;
+}
+
+.more-articles-blog.more-articles .article .article-image .image-footer{
+  margin: auto 0 0;
+  padding: 0;
+}
+
+
+.more-articles-blog.more-articles .article .article-image .title{
+  color: #fff;
+  margin: 0px 0 0px;
+  font-size: 22px;
+  font-family: "HelveticaBold";
+}
+
+.more-articles-blog.more-articles .article .article-image .descr{
+  color: #fff;
+  margin: 10px 0 20px;
+  font-size: 15px;
+}
+
+
+.section-articles .section-title{
+  text-align: left;
+  margin-bottom: 20px;
+}
+.section-articles .nav-tabs{
+  margin-bottom: 35px;
+  border: none;
+  /*border-bottom: 1px solid #9c1001;*/
+}
+.section-articles .nav-tabs li{
+    margin: 0;
+    border: none;
+}
+.section-articles .nav-tabs li a{
+    border: none;
+    position: relative;
+}
+.section-articles .nav-tabs li a:before{
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    height: 3px;
+    background: #9c1001;
+    left: 50%;
+    width: 0;
+    transition: all 0.3s ease;
+}
+.section-articles .nav-tabs li a:hover:before,
+.section-articles .nav-tabs li a.active:before{
+  width: 100%;
+  left: 0;
+}
+
+.subscribe-form form{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subscribe-form form .btn{
+  width: auto;
+  display: inline-block;
+  min-width: 0;
+  margin: 0;
+  min-height: 48px;
+  float: left;
+  padding: 0 15px 0;
+}
+
+.subscribe-form .policy {
+    font-size: 14px;
+    display: block;
+    text-align: right;
+    display: inline-block;
+    text-align: left;
+    margin: 7px 0px 0 16px;
+    float: left;
+}
+
+.subscribe-form .form-title{
+  margin-bottom: 20px;
+}
+
+.subscribe-form {
+    border-radius: 0px;
+    background-color: #f5f5f5;
+    box-shadow: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.subscribe-form .form-input{
+    background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 992px) {
+  .subscribe-form .form-input{
+    margin-bottom: 15px;
+  }
+  .subscribe-form .policy{
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-articles .nav-tabs li {
+      width: 100%;
+  }
+}
+
+.pagintaion-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-link{
+  color: #000;
+}
+.pagination{}
+.pagination li{}
+.pagination a{
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    margin: 0 5px;
+}
+.pagination .active a,
+.page-item.active .page-link,
+.pagination a:hover{
+    background: #fb7900;
+    border-color: #fb7900;
+    color: #fff;
+}

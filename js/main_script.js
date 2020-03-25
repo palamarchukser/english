@@ -78,22 +78,26 @@ $( document ).ready(function() {
   $('.t-play').click( function () {
     $('.t-audio').trigger('pause');
     $(this).closest('.teacher-elem').find('.t-audio').trigger('play');
-    if ( $(this).hasClass('played') ) {
+    /*if ( $(this).hasClass('played') ) {
       $(this).closest('.teacher-elem').find('.t-audio').trigger('pause');
       $(this).removeClass('played');
     } else {
       $(this).closest('.teacher-elem').find('.t-audio').trigger('play');
       $(this).addClass('played');
-    }
+    }*/
+
+    $('.teacher-img').removeClass('active');
+    $(this).closest('.teacher-img').addClass('active');
   });
   $('.modal').on('hidden.bs.modal', function () {
     $('.t-audio').trigger('pause');
   })
 
   //step modal
-  $('.freeLesson .btn.btn-orange').click( function() {
+  $('.freeLesson .btn.btn-orange, .section-main .main-form .btn').click( function() {
     $(this).closest('.modal').modal('hide');
     $('.graphModal').modal('show');
+    return false;
   });
   $('.modal').on('shown.bs.modal', function() {
     $('body').addClass('modal-open');
