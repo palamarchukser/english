@@ -1,3 +1,10 @@
+/*
+$('.review .review-description .review-content, .review-description .review-content').each(function(){
+  if ( $(this).outerHeight() < 190 ){
+    $(this).closest()
+  }
+})
+*/
 //add parameter to url
   function addParameterToURL(param){
     _url = location.protocol + '//' + location.host + location.pathname;
@@ -267,6 +274,19 @@ $( document ).ready(function() {
     });
   }
 
+  $(document).on('click', '.options .twitter', function(){
+    $('.ayoshare .twitter.button a').trigger('click');
+    return false;    
+  })
+  $(document).on('click', '.options .facbook', function(){
+    $('.ayoshare .facebook.button a').trigger('click');
+    return false;    
+  })
+  /*
+  $(document).on('click', '.options .twitter', function(){
+    return false;    
+  })
+  */
   //sliders
   function initSlickSlider (slider) {
     slider.each( function() {

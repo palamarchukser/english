@@ -41,7 +41,7 @@
                   1878
                 </p>
               </div>
-              <div class="anu" data-ayoshare="url-to-share"></div>
+              <div class="anu" data-ayoshare="https://webspeak.info/english/article.php"></div>
               <div class="article-body">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
                   Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales
