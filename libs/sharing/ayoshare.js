@@ -191,11 +191,15 @@ $.fn.ayoshare = function(opt) {
 
     function ayo_facebook(c, d, z) {
         $.ajax({
-            url: 'https://graph.facebook.com/v2.7/?id=' + encodeURIComponent(c) + '&access_token=443213172472393|l2IEt1tuyYta_278fR5NAg8V1jI',
+            //url: 'https://graph.facebook.com/v2.7/?id=' + encodeURIComponent(c) + '&access_token=443213172472393|l2IEt1tuyYta_278fR5NAg8V1jI',
+            url: 'https://graph.facebook.com/?id=' + encodeURIComponent(c) + '&fields=engagement&access_token=443213172472393|l2IEt1tuyYta_278fR5NAg8V1jI',
+            //https://graph.facebook.com/?id=https://webspeak.info/english/article.php&fields=engagement&access_token=443213172472393|l2IEt1tuyYta_278fR5NAg8V1jI
+            //url: 'https://graph.facebook.com/?id=https://webspeak.info/english/article.php&fields=engagement&access_token=443213172472393|l2IEt1tuyYta_278fR5NAg8V1jI',
             crossDomain: true,
-            dataType: 'jsonp'
+            dataType: 'json'
         }).done(function(a) {
-            var b = ayo_num(a.share.share_count);
+            console.log(a);
+            var b = ayo_num(a.engagement.share_count);
             $(d + ':eq(' + z + ') .ayoshare .facebook .counter p').html(b);
         }).fail(function() {
             $(d + ':eq(' + z + ') .ayoshare .facebook .counter p').html(0);

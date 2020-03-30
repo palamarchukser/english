@@ -3904,6 +3904,13 @@ ul.cert-list.w-orange li:after {
 .review .review-description .review-content.w-more + .link {
   display: table;
 }
+
+.review-content + .link {
+  display: none;
+}
+.review-content.w-more + .link {
+  display: table;
+}
 @media (max-width: 991px) {
   .review .review-description .review-content {
     font-size: 16px;
